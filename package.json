@@ -13,7 +13,20 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }, 
-  "homepage" : "https://canlas1.github.io/react-newyorktimes-hw/"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "homepage": "https://canlas1.github.io/react-newyorktimes-hw/",
+  "description": "This project was bootstrapped with [Creatfie React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canlas1/react-newyorktimes-hw.git"
+  },
+  "author": "Dennis Canlas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/canlas1/react-newyorktimes-hw/issues"
+  }
 }
